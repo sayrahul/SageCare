@@ -118,8 +118,10 @@ const RegisterForm = ({ user }: { user: User }) => {
           <CustomFormField
             fieldType={FormFieldType.INPUT}
             control={form.control}
+            label="
+            Full Name"
             name="name"
-            placeholder="John Doe"
+            placeholder="Priya Varma"
             iconSrc="/assets/icons/user.svg"
             iconAlt="user"
           />
@@ -131,7 +133,7 @@ const RegisterForm = ({ user }: { user: User }) => {
               control={form.control}
               name="email"
               label="Email address"
-              placeholder="johndoe@gmail.com"
+              placeholder="priyavarma@gmail.com"
               iconSrc="/assets/icons/email.svg"
               iconAlt="email"
             />
@@ -187,7 +189,7 @@ const RegisterForm = ({ user }: { user: User }) => {
               control={form.control}
               name="address"
               label="Address"
-              placeholder="14 street, New york, NY - 5101"
+              placeholder="Connaught Circle, New Delhi, Delhi 110001"
             />
 
             <CustomFormField
